@@ -61,7 +61,6 @@ def loops_preview():
         choc_list.append("💩")
     return choc_list
 
-
 def loops_1a():
     """Make 10 stars.
 
@@ -69,8 +68,10 @@ def loops_1a():
     return a list of 10 items, each one a string with exacly one star in it.
     E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
-    return None
-
+    star_list = []
+    for i in range(10): 
+        star_list.append("*")
+    return star_list
 
 def loops_1c(number_of_items=5, symbol="#"):
     """Respond to variables.
