@@ -85,6 +85,17 @@ def loops_1c(number_of_items=5, symbol="#"):
     """
     return None
 
+    def cut(symbol=#, number_of_items=5)
+        """Return a list of number_of_items items, each one a string with exacly one symbol in it."""
+        pile = []
+        while still_have(symbol):
+            position(string, from_end(symbol, number_of_items))
+            push(string, list)
+            pile.append(piece)
+        return pile 
+
+
+        
 
 def loops_2():
     """Make a big square starfield.
