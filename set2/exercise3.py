@@ -28,26 +28,25 @@ def fix_it(moves=True, should_move=True):
     As an extra challenge, see if you can get that down to three.
     """
 
-    if moves: 
-        if should_move: 
-            return "No Probelm"
-        else: 
-            return "Duct Tape"
-    else: 
-        if should_move:
-            return "WD-40"
-        else:
-            return "No Probelm"
+#   if moves: 
+#        if should_move: 
+#           return "No Problem"
+#        else: 
+#            return "Duct Tape"
+#    else: 
+#       if should_move:
+#           return "WD-40"
+#       else:
+#           return "No Problem"
             
     if moves and not should_move: 
         return "Duct Tape"
     elif not moves and should_move:
         return "WD-40"
     elif moves == should_move:  
-        return "No Probelm" 
+        return "No Problem" 
     else:
         print("WTF!!!!")
-
 
 
 def loops_preview():
