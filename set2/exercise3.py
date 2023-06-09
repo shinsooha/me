@@ -84,6 +84,13 @@ def loops_1c(number_of_items=5, symbol="#"):
     or the symbol, let it be whatever it wants to be.
     """
     return number_of_items=5
+    number_of_items = []
+    for i in range(5): 
+        number_of_items.append("#")
+    return number_of_items
+
+
+
 
     def cut(symbol=#, number_of_items=5)
         """Return a list of number_of_items items, each one a string with exacly one symbol in it."""
