@@ -83,7 +83,7 @@ def loops_1c(number_of_items=5, symbol="#"):
     Remember that you're being passed arguments here. Don't hard code the number
     or the symbol, let it be whatever it wants to be.
     """
-    return None
+    return number_of_items=5
 
     def cut(symbol=#, number_of_items=5)
         """Return a list of number_of_items items, each one a string with exacly one symbol in it."""
