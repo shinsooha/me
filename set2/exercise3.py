@@ -107,16 +107,21 @@ def loops_2():
           
     """
     star_list = []
-    for i in range(100): 
-        star_list.append("*")
+
+    for i in range(10):
+        row = []
+
+        for i in range(10): 
+            row.append("*")
+        star_list.append(row)
+  
     return star_list
 
 
 def loops_3():
     """Make a rising block of numbers.
 
-    Return this:
-    [
+    Return this:[
         ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0'],
         ['1', '1', '1', '1', '1', '1', '1', '1', '1', '1'],
         ['2', '2', '2', '2', '2', '2', '2', '2', '2', '2'],
@@ -133,8 +138,16 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-    return None
 
+    number_square = []
+    for i in range(10): 
+        number_row = []
+        for j in range(10):
+            number_row.append(i)
+        number_square.append(number_row)
+    
+    print(number_square)
+    return number_square
 
 def loops_4():
     """Make a block of numbers that rises left to right.
@@ -153,7 +166,14 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-    return None
+    number_square = []
+    for i in range(10): 
+        number_row = []
+        for j in range(10):
+            number_row.append(j)
+        number_square.append(number_row)
+
+    return number_square
 
 
 def loops_5():
@@ -183,7 +203,10 @@ def loops_5():
         f"There are {num_bottles} green bottles"
     you'll come to see the pros and cons of each over time.
     """
-    return None
+
+    
+
+
 
 
 def loops_6():
