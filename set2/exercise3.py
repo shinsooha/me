@@ -83,33 +83,17 @@ def loops_1c(number_of_items=5, symbol="#"):
     Remember that you're being passed arguments here. Don't hard code the number
     or the symbol, let it be whatever it wants to be.
     """
-    return number_of_items=5
-    number_of_items = []
-    for i in range(5): 
-        number_of_items.append("#")
-    return number_of_items
-
-
-
-
-    def cut(symbol=#, number_of_items=5)
-        """Return a list of number_of_items items, each one a string with exacly one symbol in it."""
-        pile = []
-        while still_have(symbol):
-            position(string, from_end(symbol, number_of_items))
-            push(string, list)
-            pile.append(piece)
-        return pile 
-
-
-        
+    star_list = []
+    for i in range(number_of_items): 
+        star_list.append(symbol)
+    return star_list
 
 def loops_2():
     """Make a big square starfield.
 
     return a list of 10 items, each one a list of 10 items,
     each one of those, a string with exacly one star in it.
-    E.g.: [
+    E.g.: 
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
@@ -120,9 +104,12 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
-          ]
+          
     """
-    return None
+    star_list = []
+    for i in range(100): 
+        star_list.append("*")
+    return star_list
 
 
 def loops_3():
@@ -274,6 +261,7 @@ if __name__ == "__main__":
     little_printer(loops_preview(), "loops_preview")
     little_printer(loops_1a(), "loops_1a")
     little_printer(loops_1c(4, "×°×"), "loops_1c")
+    little_printer(loops_1c(6, "s°soo"), "loops_1c")
     little_printer(loops_2(), "loops_2")
     little_printer(loops_3(), "loops_3")
     little_printer(loops_4(), "loops_4")
