@@ -204,8 +204,15 @@ def loops_5():
     you'll come to see the pros and cons of each over time.
     """
     
+    block_square = []
+    for i in range(10): 
+        coordinates_row = []
+        for j in range(5):
+            coordinates_row.append('(i{}, j{})'.format(i, j) )
+        block_square.append(coordinates_row)
 
-
+    print (block_square)
+    return block_square
 
 
 
@@ -229,8 +236,14 @@ def loops_6():
     You can use a variable.
     TIP: look out for the starting condition.
     """
-    return None
+    wedge_numbers = []
+    for i in range(10): 
+        number_row = []
+        for j in range(i + 1):
+            number_row.append(str(j))
+        wedge_numbers.append(number_row)
 
+    return wedge_numbers
 
 def loops_7():
     """Make a pyramid.
@@ -253,7 +266,14 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    return None
+    pyramid = []
+    for i in range(5): 
+        number_row = []
+        for j in range(9):
+            number_row.append(str(j))
+        wedge_numbers.append(number_row)
+
+    return wedge_numbers
 
 
 def little_printer(some_kind_of_list, exercise_name):
