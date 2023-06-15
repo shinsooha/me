@@ -143,7 +143,7 @@ def loops_3():
     for i in range(10): 
         number_row = []
         for j in range(10):
-            number_row.append(i)
+            number_row.append(str(i))
         number_square.append(number_row)
     return number_square
 
@@ -168,9 +168,9 @@ def loops_4():
     for i in range(10): 
         number_row = []
         for j in range(10):
-            number_row.append(j)
+            number_row.append(str(j))
         number_square.append(number_row)
-    return number_square
+    return number_square 
 
 
 def loops_5():
@@ -210,8 +210,6 @@ def loops_5():
 
     print (block_square)
     return block_square
-
-
 
 def loops_6():
     """Make a wedge of numbers.
@@ -263,14 +261,6 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    pyramid = []
-    for i in range(5): 
-        number_row = []
-        for j in range(9):
-            number_row.append(str(j))
-        wedge_numbers.append(number_row)
-
-    return wedge_numbers
 
 
 def little_printer(some_kind_of_list, exercise_name):
