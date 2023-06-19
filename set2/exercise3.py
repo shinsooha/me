@@ -262,10 +262,10 @@ def loops_7():
     lots of diagrams!
     """
     pyramid = []
-    for i in range(5)
+    for i in range(5):
         number_row = []
-        for j in range(9)
-            number_row.append('*' + a x i)
+        for j in range(9):
+            number_row.append('*')
         pyramid_numbers.append(number_row)
 
     return pyramid 
