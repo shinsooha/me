@@ -17,9 +17,9 @@ def loop_ranger(start, stop=None, step=1):
     Look up for how range() works in the python docs. You could  answer this
     with just the range function, but we'd like you to do it the long way.
     """
-    return None
-
-
+    for num in range(3, 10, 2): 
+        print(num)
+    
 def two_step_ranger(start, stop):
     """Make a range that steps by 2.
 
