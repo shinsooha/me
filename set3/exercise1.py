@@ -17,8 +17,10 @@ def loop_ranger(start, stop=None, step=1):
     Look up for how range() works in the python docs. You could  answer this
     with just the range function, but we'd like you to do it the long way.
     """
-    for num in range(3, 10, 2): 
-        print(num)
+
+    my_range = range(3, 10, 2)
+    my_list = list(my_range)
+    print(my_list)
     
 def two_step_ranger(start, stop):
     """Make a range that steps by 2.
