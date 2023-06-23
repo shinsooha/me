@@ -44,10 +44,17 @@ def stubborn_asker(low, high):
 
     Look up the docs for a function called "input"
     """
-    num= input( "enter a number between {} and {}: ".format(low, high))
-    print(num, " ", type(num))
-    
-    return num 
+    while True:
+        number = input("Enter a number between {} and {}: ".format(low, high))
+        try:
+            number = int(number)  # Convert input to an integer
+            if low <= number <= high:
+                return number  # Return the number if it's within the bounds
+            else:
+                print("Number is outside the valid range. Try again.")
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+    return number 
 
 def not_number_rejector(message):
     """Ask for a number repeatedly until actually given one.
@@ -56,8 +63,14 @@ def not_number_rejector(message):
     (e.g. "cow", "six", "8!") then throw it out and ask for an actual number.
     When you do get a number, return it.
     """
-    return None
-
+    while True: 
+        response = input(message)
+        try:  
+            number = int(response) #convert input into number 
+            return number 
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+    return response 
 
 def super_asker(low, high):
     """Robust asking function.
@@ -65,7 +78,7 @@ def super_asker(low, high):
     Combine what you learnt from stubborn_asker and not_number_rejector
     to make a function that does it all!
     """
-    return None
+    
 
 
 if __name__ == "__main__":
