@@ -44,8 +44,10 @@ def stubborn_asker(low, high):
 
     Look up the docs for a function called "input"
     """
+    num= input( "enter a number between {} and {}: ".format(low, high))
+    print(num, " ", type(num))
     
-
+    return num 
 
 def not_number_rejector(message):
     """Ask for a number repeatedly until actually given one.
