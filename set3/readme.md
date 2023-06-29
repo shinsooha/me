@@ -1,1 +1,2 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+I looked at some of the codes for the pyramid exercise from set2 and it initially made me confused because I did not know what was going on. To be honest looking at their codes did not make it easier for me to understand to question. This was initial thought though after looking at it a couple of times I kinda was wrapping my head around it. I did realise that the less words the code has the better it is to read. 
