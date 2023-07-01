@@ -31,7 +31,7 @@ def advancedGuessingGame():
 
     return "You got it!"
     # the tests are looking for the exact string "You got it!". Don't modify that!
-
+ 
 
 if __name__ == "__main__":
     print(advancedGuessingGame())
