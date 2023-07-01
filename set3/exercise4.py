@@ -45,7 +45,6 @@ def binary_search(start, end, actual_number):
 
     return None  # The actual_number was not found within the given range
 
-
 if __name__ == "__main__":
     print(binary_search(1, 100, 5))
     print(binary_search(1, 100, 6))
