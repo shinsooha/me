@@ -29,19 +29,32 @@ def get_some_details():
     Return a new dictionary that just has the last name, password, and the
     number you get when you add the postcode to the id-value.
     TIP: Make sure that you add the numbers, not concatinate the strings.
-         E.g. 2000 + 3000 = 5000 not 20003000
+        E.g. 2000 + 3000 = 5000 not 20003000
     TIP: Keep a close eye on the format you get back. JSON is nested, so you
-         might need to go deep. E.g to get the name title you would need to:
-         data["results"][0]["name"]["title"]
-         Look out for the type of brackets. [] means list and {} means
-         dictionary, you'll need integer indeces for lists, and named keys for
-         dictionaries.
+        might need to go deep. E.g to get the name title you would need to:
+        data["results"][0]["name"]["title"]
+        Look out for the type of brackets. [] means list and {} means
+        dictionary, you'll need integer indeces for lists, and named keys for
+        dictionaries.
     """
     json_data = open(LOCAL + "/lazyduck.json").read()
 
     data = json.loads(json_data)
-    return {"lastName": None, "password": None, "postcodePlusID": None}
 
+    last_name = data["results"][0]["name"]["last"]
+    password = data["results"][0]["login"]["password"]
+    postcode = int(data["results"][0]["location"]["postcode"])
+    id_value = int(data["results"][0]["id"]["value"])
+    postcode_plus_id = postcode + id_value
+
+    details = {
+        "lastName": last_name,
+        "password": password,
+        "postcodePlusID": postcode_plus_id
+    }
+
+    return details
+    
 
 def wordy_pyramid():
     """Make a pyramid out of real words.
@@ -78,9 +91,18 @@ def wordy_pyramid():
     TIP: to add an argument to a URL, use: ?argName=argVal e.g. &wordlength=
     """
     pyramid = []
+    for length in range(3, 21, 2):
+        url = f"https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={length}" 
+        reponse = requests.get(url)
+        word = reponse.text
+        pyramid.append(word)
+    for length in range(20, 3, -2):
+        url = f"https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={length}" 
+        reponse = requests.get(url)
+        word = reponse.text
+        pyramid.append(word)
 
-    return pyramid
-
+    return pyramid 
 
 def pokedex(low=1, high=5):
     """Return the name, height and weight of the tallest pokemon in the range low to high.
@@ -91,10 +113,10 @@ def pokedex(low=1, high=5):
     Parse the json and extract the values needed.
 
     TIP: reading json can someimes be a bit confusing. Use a tool like
-         http://www.jsoneditoronline.org/ to help you see what's going on.
+        http://www.jsoneditoronline.org/ to help you see what's going on.
     TIP: these long json accessors base["thing"]["otherThing"] and so on, can
-         get very long. If you are accessing a thing often, assign it to a
-         variable and then future access will be easier.
+        get very long. If you are accessing a thing often, assign it to a
+        variable and then future access will be easier.
     """
     id = 5
     url = f"https://pokeapi.co/api/v2/pokemon/{id}"
@@ -114,10 +136,10 @@ def diarist():
 
     TIP: you need to write a string, so you'll need to cast your number
     TIP: Trispokedovetiles(laser).gcode uses windows style line endings. CRLF
-         not just LF like unix does now. If your comparison is failing this
-         might be why. Try in rather than == and that might help.
+        not just LF like unix does now. If your comparison is failing this
+        might be why. Try in rather than == and that might help.
     TIP: remember to commit 'lasers.pew' and push it to your repo, otherwise
-         the test will have nothing to look at.
+        the test will have nothing to look at.
     TIP: this might come in handy if you need to hack a 3d print file in the future.
 
     NOTE: this function doesn't return anything. It has the _side effect_ of modifying the file system

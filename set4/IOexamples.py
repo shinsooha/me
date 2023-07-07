@@ -40,7 +40,7 @@ be_cool_for_ever("Ben", "ben_is_cool.lol_UR_joking")
 
 def safely_write(name, file_path):
     with open(file_path, "w", encoding="utf-8") as history_book:
-        history_book.write(f"{name} is cool 💩💩")
+        history_book.write(f"{name} is cool 💩💩 b b b b")
 
 
 safely_write("🕺👆☝🦆", "ducks.yes")
@@ -107,8 +107,7 @@ def dig_up_capsule(file_path):
         file_path (str): The path to where you want to save the json.
     """
     mode = "r"  # from the docs
-    template = """{Greeting},\nDid you know that in {Year}, "{Fact}" was still true!"""
-    keys_needed = ["Greeting", "Year", "Fact"]
+     
     try:
         time_capsule = open(file_path, mode)
         contents = json.load(time_capsule)
