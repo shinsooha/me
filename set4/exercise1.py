@@ -50,11 +50,11 @@ def get_some_details():
     details = {
         "lastName": last_name,
         "password": password,
-        "postcodePlusID": postcode_plus_id
+        "postcodePlusID": postcode_plus_id,
     }
 
     return details
-    
+
 
 def wordy_pyramid():
     """Make a pyramid out of real words.
@@ -92,17 +92,18 @@ def wordy_pyramid():
     """
     pyramid = []
     for length in range(3, 21, 2):
-        url = f"https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={length}" 
+        url = f"https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={length}"
         reponse = requests.get(url)
         word = reponse.text
         pyramid.append(word)
     for length in range(20, 3, -2):
-        url = f"https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={length}" 
+        url = f"https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={length}"
         reponse = requests.get(url)
         word = reponse.text
         pyramid.append(word)
 
-    return pyramid 
+    return pyramid
+
 
 def pokedex(low=1, high=5):
     """Return the name, height and weight of the tallest pokemon in the range low to high.
@@ -118,13 +119,14 @@ def pokedex(low=1, high=5):
         get very long. If you are accessing a thing often, assign it to a
         variable and then future access will be easier.
     """
-    id = 5
+
+    range (low, high + 1) 
     url = f"https://pokeapi.co/api/v2/pokemon/{id}"
     r = requests.get(url)
+    
     if r.status_code is 200:
         the_json = json.loads(r.text)
-
-    return {"name": None, "weight": None, "height": None}
+    
 
 
 def diarist():
