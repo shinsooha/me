@@ -1,1 +1,2 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+this week was confusing for me because the information wasnt processing in my brain. I had to look at alot of extra material from ben and internet to try grasp the info. Drawing diagrams defintely help. 
