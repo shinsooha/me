@@ -120,14 +120,22 @@ def pokedex(low=1, high=5):
         variable and then future access will be easier.
     """
 
-    range (low, high + 1) 
-    url = f"https://pokeapi.co/api/v2/pokemon/{id}"
-    r = requests.get(url)
-    
-    if r.status_code is 200:
-        the_json = json.loads(r.text)
-    
-
+    tallest_pokemon_data = None 
+    tallest_pokemon_height = -1
+    for id in range (low, high + 1): 
+        url = f"https://pokeapi.co/api/v2/pokemon/{id}"
+        r = requests.get(url)
+        if r.status_code is 200:
+            this_pokemon = json.loads(r.text)
+            if this_pokemon['height'] > tallest_pokemon_height: 
+                tallest_pokemon_data = this_pokemon
+                tallest_pokemon_height = this_pokemon['height'] 
+            
+    return { 
+        "name":tallest_pokemon_data["name"], 
+        "weight": tallest_pokemon_data["weight"], 
+        "height": tallest_pokemon_data["height"]
+        }
 
 def diarist():
     """Read gcode and find facts about it.
