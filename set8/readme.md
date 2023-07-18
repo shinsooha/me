@@ -1,1 +1,2 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+this week I tried working on data project, its confusing but im glad I know how to at least approach this project. I still kinda need some more time and support to work on my exercises. Drawing diagrams and etc help alot but also its sometimes hard when we also have to study the data project. By the end of the week I aim to have made alot more diagrams and do more of my project. 
