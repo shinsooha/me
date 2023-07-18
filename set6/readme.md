@@ -1,1 +1,2 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+during the week 6 time period I was trying to catch up on everything else still as all the other exercises were still not fully understood by me. Also I tried to look into my data set but It was hard to find something that was fitting my interest whilst also being within the criteria of the project. 
