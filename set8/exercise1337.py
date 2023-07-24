@@ -23,7 +23,8 @@ def password_please() -> str:
     """Returns a string, 8 or more characters long, contains at
     least one upper case letter and one lowercase letter.
     TIP: don't put in a real password!"""
-
+    lowercase_letters = string.ascii_lowercase
+    uppercase_letters = string.ascii_uppercase
 
 def list_please() -> list:
     """Returns a list, you can put anything in the list."""
