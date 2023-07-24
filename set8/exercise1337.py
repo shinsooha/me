@@ -212,7 +212,7 @@ def make_filler_text_dictionary() -> Dict:
     TIP: you'll need the requests library
     """
 
-    wd = {}
+    make_filler_text_dictionary = {}
 
     for word_length in range(3, 8):
         word_list = []
@@ -222,9 +222,9 @@ def make_filler_text_dictionary() -> Dict:
             word = r.text
             word_list.append(word)
         
-        wd[word_length] = word_list
+        make_filler_text_dictionary[word_length] = word_list
 
-    return wd
+    return make_filler_text_dictionary  
 
 
 def random_filler_text(number_of_words=200) -> str:
@@ -243,7 +243,6 @@ def random_filler_text(number_of_words=200) -> str:
     for i in range(number_of_words): 
         num = random.randint(3, 7) 
     
-
     return " ".join(words)
 
 
