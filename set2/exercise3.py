@@ -114,7 +114,7 @@ def loops_2():
         for i in range(10): 
             row.append("*")
         star_list.append(row)
-  
+
     return star_list
 
 
@@ -136,7 +136,7 @@ def loops_3():
     remember that range(10) produces a list of numbers from 0...9
     So for every step produced by `for i in range(10):` i is a different number
     TIP: notice that this needs to to return strings of numbers,
-         so call str(number) to cast.
+        so call str(number) to cast.
     """
 
     number_square = []
@@ -178,7 +178,7 @@ def loops_5():
 
     Return this:
     [
-      ['(i0, j0)', '(i0, j1)', '(i0, j2)', '(i0, j3)', '(i0, j4)'],
+    ['(i0, j0)', '(i0, j1)', '(i0, j2)', '(i0, j3)', '(i0, j4)'],
       ['(i1, j0)', '(i1, j1)', '(i1, j2)', '(i1, j3)', '(i1, j4)'],
       ['(i2, j0)', '(i2, j1)', '(i2, j2)', '(i2, j3)', '(i2, j4)'],
       ['(i3, j0)', '(i3, j1)', '(i3, j2)', '(i3, j3)', '(i3, j4)'],
