@@ -23,8 +23,16 @@ def password_please() -> str:
     """Returns a string, 8 or more characters long, contains at
     least one upper case letter and one lowercase letter.
     TIP: don't put in a real password!"""
-    lowercase_letters = string.ascii_lowercase
-    uppercase_letters = string.ascii_uppercase
+
+    password_length = random.randint(8, 12)
+    characters = string.ascii_letters + string.digits + string.punctuation
+    password = "".join(random.choice(characters) for _ in range(password_length))
+    return password
+
+# string.ascii_letters (which contains all uppercase and lowercase letters)
+# string.digits (which contains all digits)
+# string.punctuation (which contains all punctuation characters)
+# join method in python allows the inputs to intertwine with eachother 
 
 def list_please() -> list:
     """Returns a list, you can put anything in the list."""
@@ -98,7 +106,7 @@ def fizz_buzz() -> List:
 
     This is the most famous basic programming test of all time!
 
-       "Write a program that prints the numbers from 1 to 100. But for
+        "Write a program that prints the numbers from 1 to 100. But for
         multiples of three print "Fizz" instead of the number and for
         the multiples of five print "Buzz". For numbers which are
         multiples of both three and five print "FizzBuzz"."
@@ -222,10 +230,10 @@ def make_filler_text_dictionary() -> Dict:
             r = requests.get(url)
             word = r.text
             word_list.append(word)
-        
+
         make_filler_text_dictionary[word_length] = word_list
 
-    return make_filler_text_dictionary  
+    return make_filler_text_dictionary
 
 
 def random_filler_text(number_of_words=200) -> str:
@@ -238,13 +246,22 @@ def random_filler_text(number_of_words=200) -> str:
     TIP: you'll need the random library,
         e.g. random.randint(low, high)
     """
+
+    filler_text_dict = make_filler_text_dictionary()
+
+    if not filler_text_dict:
+        raise ValueError()
+
     words = []
-    my_dict = make_filler_text_dictionary()
-    word_counts = len(my_dict)
-    for i in range(number_of_words): 
-        num = random.randint(3, 7) 
-    
-    return " ".join(words)
+    word_lengths = list(filler_text_dict.keys())
+
+    for _ in range(number_of_words):
+        word_length = random.choice(word_lengths)
+        word = random.choice(filler_text_dict[word_length])
+        words.append(word)
+
+    paragraph = " ".join(words)
+    return paragraph
 
 
 def fast_filler(number_of_words=200) -> str:
