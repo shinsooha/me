@@ -1,1 +1,2 @@
 TODO: Reflect on what you learned this week and what is still unclear.
+I think one thing about this course is that you can fall behind easily as Im a total beginner in everything we are learning in this course. so It can be hard for me to fully understand everything whislt still catching up with everything else in my life, like my other courses. 
