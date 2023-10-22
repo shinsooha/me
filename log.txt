@@ -1,0 +1,688 @@
+commit ae6f571d296c30c17548b2ec9c7f0494818184fa
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Tue Aug 1 14:17:07 2023 +1000
+
+    set 10
+
+commit 06018bc64864f4f6c00183f829ebc63f23067c7c
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Tue Aug 1 14:14:04 2023 +1000
+
+    do set 9
+
+commit 1da47c1295168f40c68afc5faf1af576940670b5
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Tue Aug 1 14:11:54 2023 +1000
+
+    do set 5
+
+commit 524387d421b3201d7bae1d86f58240e50fd32c86
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Tue Aug 1 14:08:17 2023 +1000
+
+    so set 8
+
+commit 17fa059c3900a87a5920994534b030169dbef68b
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Tue Jul 25 10:23:09 2023 +1000
+
+    do set 3
+
+commit 3cad889aece67d81a002ca39a0ba4c8af2e34f21
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Tue Jul 25 10:18:13 2023 +1000
+
+    do set 8
+
+commit d2d2436d5e2dd20d2b701226fbdf3d4019ee00c8
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jul 24 22:18:25 2023 +1000
+
+    do set 3
+
+commit 116b05b8d2a34e2e6bac0da4fdcd99a5143a71da
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jul 24 22:15:28 2023 +1000
+
+    do set 3
+
+commit b6382e0846b8cf4e34f77e22b7194d60ada0fafe
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jul 24 21:15:58 2023 +1000
+
+    do quiz
+
+commit 5899ff621abbfd2b75c42e869dbccaf291a8a893
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jul 24 21:13:15 2023 +1000
+
+    do quiz
+
+commit a1e751fd2793631f80f20328ef71ee96b9da803c
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jul 24 17:11:12 2023 +1000
+
+    do QUIZ exercise1337
+
+commit cd7b9d9a434f6153515f6bc4431f72e23949f45e
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Wed Jul 19 01:17:48 2023 +1000
+
+    do set 8
+
+commit 9d862e8040ddac7b87dbdf3bb74ead899bc0dadd
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Wed Jul 19 01:14:03 2023 +1000
+
+    do set 7
+
+commit 3afb04d32255579689ec1cfb03f2957699a74945
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Wed Jul 19 01:08:58 2023 +1000
+
+    do set 6
+
+commit 8526d2b45405d4f64f3f6bf1530f9151969a856c
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jul 17 12:49:50 2023 +1000
+
+    do set 4
+
+commit b1f405cf5c5b5bb7b50a3ce60e8fb51fe296b724
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jul 10 15:07:26 2023 +1000
+
+    do set 4
+
+commit d5cd678d25ae8a409740fe0ddba5c6e2803937e1
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jul 10 15:05:30 2023 +1000
+
+    set 4
+
+commit 1c44536e7851552ee373a5238a3f92cf54c9edf8
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Fri Jul 7 23:58:48 2023 +1000
+
+    do set 3
+
+commit 8b4a9e43b4173ff458af69a5088b20ca53942838
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Sat Jul 1 23:39:32 2023 +1000
+
+    do set 3
+
+commit e9fe7e146f609ad0610d57735e5f22f5dc1a4b26
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Sat Jul 1 23:36:36 2023 +1000
+
+    do set 3
+
+commit b8ded2049e4b5212501245f8d6f11d99da86ec6d
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Sat Jul 1 23:33:21 2023 +1000
+
+    do set 2
+
+commit 5bfffcc824501e97c3ad1d716a7e0b287274dd9b
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Sat Jul 1 23:30:18 2023 +1000
+
+    do set 2
+
+commit 5832ac3bb2eeb55d0acdffce8503eb3ff50ab84f
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Sat Jul 1 22:49:04 2023 +1000
+
+    do set 2
+
+commit 3ca125e924562ee79f0524f52f1be1c63e32423c
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Sat Jul 1 22:29:30 2023 +1000
+
+    do set 3
+
+commit 474faf1b2945a2f3840923911adcf18f61af969f
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Thu Jun 29 11:35:32 2023 +1000
+
+    set 3
+
+commit 26cb81385f0e99ed9dbc6f865b103fae79944d2d
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Fri Jun 23 23:51:46 2023 +1000
+
+    set 3
+
+commit 822719ee2df2498a11eace9d4640dea91a8644da
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Fri Jun 23 23:17:18 2023 +1000
+
+    do set 3
+
+commit e4249a9f9fa81fd69579c76ce60096127e626fc1
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Fri Jun 23 19:11:35 2023 +1000
+
+    do set 3
+
+commit fb1f27d308c04e037b21468df1776233610aca3d
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jun 19 18:18:32 2023 +1000
+
+    do set 3
+
+commit f49aca74fcc182827bce2de22b9651b1b4659630
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jun 19 15:46:32 2023 +1000
+
+    do set 3
+
+commit a1d3eaf82243f7553663e0496e79aa593ef099c4
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jun 19 15:41:58 2023 +1000
+
+    do set 3
+
+commit e364e81314ae1ed945519c256d9b6d8b3be2cea4
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jun 19 15:08:58 2023 +1000
+
+    do set 2
+
+commit cd73ee70d753531bfae20ec889dd3be4336739ec
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Sun Jun 18 23:59:39 2023 +1000
+
+    do set 1 and 3
+
+commit 75efe8c8386adc1c4467637a049f16a4d1024c73
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Thu Jun 15 11:27:41 2023 +1000
+
+    do set 2
+
+commit ec3efe3786e685a63bff20b7dd1e34fe64422bf4
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Thu Jun 15 10:16:05 2023 +1000
+
+    do set 2
+
+commit d966dc27ddf202927d5491a5a95310f089534858
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Wed Jun 14 21:06:06 2023 +1000
+
+    do set 2
+
+commit f0b39a9015ff74d41e25fe784cc1be9f81d23cb3
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Wed Jun 14 20:10:02 2023 +1000
+
+    do set 2
+
+commit 5e4c34247f2a3309f4c02983d537f7a3ab6b97e7
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Tue Jun 13 00:40:33 2023 +1000
+
+    do set 2
+
+commit 93698df02c5b2de91daddf6f07ca3752654b5b23
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Tue Jun 13 00:25:07 2023 +1000
+
+    do set 2
+
+commit 707ea9ac0d24b18ef97fb2649bcd28bf01e370d7
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jun 12 21:53:12 2023 +1000
+
+    do set 2
+
+commit 3c5b96ecac3d08dda877595b4e57e35075df0295
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jun 12 21:52:14 2023 +1000
+
+    do set 2
+
+commit ee494d931f5d913751598efec9bfce70b12d2f6a
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Fri Jun 9 19:44:23 2023 +1000
+
+    do set 2
+
+commit 39467fd4c265c347e10d18d67432fbf6c1098984
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Fri Jun 9 19:31:17 2023 +1000
+
+    do set 2
+
+commit 16a3d5929d7fad9b9cf7a0a91544fababbfdc041
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Tue Jun 6 15:19:21 2023 +1000
+
+    do set 2
+
+commit b01d4646726c4da5a8b5487d0316dc57b7533d7c
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Tue Jun 6 13:25:08 2023 +1000
+
+    do set 2
+
+commit ed90f0a1df416605ee51ef53ed86614362955409
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Tue Jun 6 12:24:47 2023 +1000
+
+    do set 2
+
+commit deeaab435c48eb726fd3c3457976aca1d814d59f
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Tue Jun 6 00:58:59 2023 +1000
+
+    do set 2
+
+commit 65608d6d906f2dc214960b10001514c2073744d6
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jun 5 17:29:07 2023 +1000
+
+    do set 2
+
+commit 8b172426c97a56fd81943a7f815908e219acf388
+Author: Soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon Jun 5 14:06:53 2023 +1000
+
+    finish set 1
+
+commit 00154226f4e5a3a740d789cd093bc4dbbcaa8caa
+Author: soo Ha Shin <soohashinn7@gmail.com>
+Date:   Mon May 29 17:31:22 2023 +1000
+
+    do set 1
+
+commit 44141766709a30eda0d2af2ae5a75c5a8718d3c8
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 26 15:55:02 2023 +1000
+
+    remove quiz
+
+commit fead562ce660e33f091bd473f703b9874c8c015e
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 26 15:54:44 2023 +1000
+
+    quick demo to play with
+
+commit 9821759a5e617c37be06ab8502f05deead4f7cc9
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 26 15:52:50 2023 +1000
+
+    closes #11
+    
+    just some clarification to the messages
+
+commit 439cb93a8e233ab605d000227870a878f513cfbf
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 26 15:42:27 2023 +1000
+
+    Simplify little printer
+    
+    Closes Make w2 mini tests print more simply too #9
+
+commit 0ecc5e621b5f19bb0a3b287e49a64c0ce7be8119
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 26 15:27:36 2023 +1000
+
+    remove guard, not needed here
+
+commit 7f1b1c8a4be38d1ff25ee0f8ec903eaef7c21cc5
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 26 15:26:13 2023 +1000
+
+    no indentation in this file any more
+
+commit 81e3fb4cb49320d58b1a3c187ca65e161ed0a42e
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 24 11:47:44 2023 +1000
+
+    linter changes
+
+commit 0fbf4891e2d19d753f247d1377ab73075b93f187
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 24 11:46:50 2023 +1000
+
+    clearer comments
+
+commit 2935f3fa17e2d1d54182371454f18bcc2cf455c1
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 24 11:46:37 2023 +1000
+
+    reduce PII
+
+commit f51a373cb053a61a9f7f405401d6f2ba1983f8e8
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Tue May 31 10:06:47 2022 +1000
+
+    clarify a lot of docstrings
+
+commit ae6f9961a593f5b45b85dc8afffa765390de8dda
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 20 14:40:46 2022 +1000
+
+    use vars
+
+commit 9baffb0085871f0d24842b26a6168c0ac339ec02
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 20 14:37:36 2022 +1000
+
+    remove old file
+
+commit 00b561e362dd1e124f4da4fbbe70b565a84977ef
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 20 14:37:27 2022 +1000
+
+    correct the end bit
+
+commit 4f35a6b1e342a459775b3fb412b1841b1131e0c5
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Fri May 20 14:22:15 2022 +1000
+
+    use f strings
+
+commit 506b18efcb11d34f6fed2a044e319be70c84fc6f
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:59:02 2022 +1000
+
+    make pyramid cleareer
+
+commit dde2c330f3fea5da453c209a3e5183fe60e602f2
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:58:01 2022 +1000
+
+    reorganise the capsule
+
+commit 383c7795df47edd18b7ae41f3e55ede903c3d14f
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:53:39 2022 +1000
+
+    make list comp more obvious
+
+commit b0041c5d3afe489c84394aeed9c7993172784c31
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:53:18 2022 +1000
+
+    add with example
+
+commit ead1b4d325f95eaf5ee099dbffd469fddedebab3
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:51:16 2022 +1000
+
+    clearer docstrings
+
+commit 8515d467aacacde28490235ae04edc602876a007
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Thu May 19 13:51:03 2022 +1000
+
+    remove lone ranger
+
+commit 78eebb8961931206eedbd9e252a23b143498993b
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Mon May 16 11:43:05 2022 +1000
+
+    repo tidy up
+
+commit 352cfcfcb1067d2d37cb136e71b947fa900809b6
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Sat May 7 12:22:36 2022 +1000
+
+    add some comments to make it clearer what to do in this file
+    
+    It was a bit mysterious before
+    Hopefully this it more valuable
+
+commit ff7eb0a89c55b90c534dafcebdbbca7c0207ce96
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 4 19:26:04 2022 +1000
+
+    reset to base
+
+commit 1e32d5d9f2ea82cd854a353f32e7c0ea0bb8cead
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 4 19:24:44 2022 +1000
+
+    update docs link to go somewhere useful
+
+commit 11b50827c12b9e766fce8cd1d26f9d69baa9fa16
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 4 19:12:47 2022 +1000
+
+    Change map to list comp
+    
+    Now that it's py3 map returns itterator, not a list.
+    This doesn't work easily with the following lines
+
+commit 7637a67ab176461298f35fe9bf54f091446df6a7
+Author: Ben Doherty <ben@notionparallax.co.uk>
+Date:   Wed May 4 17:12:50 2022 +1000
+
+    Update contact details
+    
+    Because I needed to.
+    @constuname told me to...
+
+commit 26db73abac3116bbf137899cce4f43e15cf52107
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 3 16:28:31 2021 +1000
+
+    ignore rope
+
+commit ee1cbcea7eb98fc5fc6882317abd100353a2ff46
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 3 16:27:58 2021 +1000
+
+    final updates
+
+commit 6c177229dae90d38e207281bdd05b027381e7032
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Sun May 30 15:49:41 2021 +1000
+
+    change week to set
+
+commit 18c8826d9b02b7e22ebedb1ea55cc53208c40eb1
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Sun May 30 15:41:09 2021 +1000
+
+    rename weeks
+
+commit b8682bdd942dece3f0528c0f25a05d31d6fb3af9
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Wed Jul 22 13:41:48 2020 +1000
+
+    Actually commit changes, don't be a scumbag
+
+commit e905c4391c79b852fee2397b23ad39d517b4832d
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Wed Jul 22 12:21:24 2020 +1000
+
+    better doc strings
+
+commit d77757539da99a31630899463948c376c07a5482
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Wed Jul 15 08:49:49 2020 +1000
+
+    add more explanitory text
+
+commit 95d2297abf4328e1594df46eace5a4292516a281
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Wed Jun 10 14:42:50 2020 +1000
+
+    clearer instructions
+
+commit 5fa9ed73c098cbfb76bfa6f289d81e62d0ef97d7
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Tue Jun 2 19:42:17 2020 +1000
+
+    clearer docstring
+
+commit 72ced4f9122a73109ccd6090832d07993ac12d35
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Tue Jun 2 18:28:37 2020 +1000
+
+    Pull exam
+
+commit 39d5d6c6235affc87b3d729a31d3e60dd64dfbcd
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 27 21:53:41 2019 +1000
+
+    remove base
+
+commit e00a0f6b5061379a36d4a78f933aee7b78db46fa
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 27 21:52:59 2019 +1000
+
+    pokedex exercise
+
+commit 908b40573a10a6172b77b11bdcd1c45ada636cc2
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 27 21:52:50 2019 +1000
+
+    extra tip about 3d printing
+
+commit 79eca502d0d3dfb18cc9136b9a5cb15087faf326
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 6 15:29:21 2019 +1000
+
+    not needed
+
+commit 493f38b7bcd6c0d3fb497a8ad30f72eca2b81fc5
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 6 15:27:28 2019 +1000
+
+    remove the exam, closes #4
+
+commit ddddad8c797aa99fbfb6e5410c21d58036d2b2da
+Merge: 30d5e6f 6cb3e70
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu Jun 6 13:48:43 2019 +1000
+
+    Merge pull request #5 from BaptisteHiggs/master
+    
+     Typo fixes, clearer wording, updating links, & other miscellaneous changes
+
+commit 6cb3e70e4bed84acda6716182410ec11e83ee805
+Author: BaptisteHiggs <16fogterminator@gmail.com>
+Date:   Mon Jun 3 21:56:20 2019 +1000
+
+    Typo fixes, clearer wording, updating links, & other miscellaneous changes
+
+commit 30d5e6ffa47550731ef6b6f2600b652c8d65a9f9
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Mon Jun 3 18:13:35 2019 +1000
+
+    more generic key names
+
+commit 340d283ad3e4b6706b7153a0c9200553f854b039
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Mon Jun 3 18:13:15 2019 +1000
+
+    add more details to the commands
+
+commit 18395ed253e8df1460cd8167439eaaba6bfede3e
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Sun Jun 2 21:59:39 2019 +1000
+
+    Linting
+
+commit b7381a08b1334449878e089fd5537e474a93a5ba
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Sun Jun 2 21:58:55 2019 +1000
+
+    More generic about me
+
+commit 950c08fb0b762e384e495492fc858727affdf32a
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Sun Jun 2 21:32:30 2019 +1000
+
+    use real json
+
+commit c0e4e5f2be4f9ef68a184b5fbb2d3b3ec81ffdd0
+Author: BaptisteHiggs <16fogterminator@gmail.com>
+Date:   Sun Jun 2 13:28:22 2019 +1000
+
+    week2exercise0 edits
+
+commit d5948276a33628a50692bab629e1ac42ec04014c
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 19:39:51 2019 +1000
+
+    unavoidable linting
+
+commit a7f70964d9d794bc1d49b07f4fa3581f79d8825c
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 19:39:37 2019 +1000
+
+    remove these imports, too confusing
+
+commit 9f872fff61c90baed70db0c35ebfd28a8a3e8c99
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 19:39:20 2019 +1000
+
+    initial
+
+commit 28dec83292421bb93ddc86bb0bbeed7d30f118f7
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 18:40:54 2019 +1000
+
+    redamage
+
+commit c2b9a0d9a97e5edab850c17a19a46d45e8fc4218
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 18:35:25 2019 +1000
+
+    tidy log boks
+
+commit 01a5494c1b07a18cf3d76d6c040786998cabdf4b
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 17:39:39 2019 +1000
+
+    tidying mainly
+
+commit 901758c94ca309c4f91ba0b6b24922968655fe60
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 11:09:53 2019 +1000
+
+    change debug advice
+    now that there is vs code debugging
+
+commit 1f88fc7cfeae33aabd27f0cd108392040c21793e
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 11:04:37 2019 +1000
+
+    clearer docs
+
+commit 5863ffb974dd298725687fa864aabdd215c26a46
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 10:56:48 2019 +1000
+
+    first
+
+commit 3b00cf2cdd70b8c6c6224f16f6523cbaae072042
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 10:54:44 2019 +1000
+
+    pass -> return
+
+commit 3c954963241985b1f1d7eb55cb13335e366a1bed
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Fri May 31 10:53:41 2019 +1000
+
+    add returns
+
+commit ebffc9c3bb03fa624d7a943449feb98367bbf5b5
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu May 30 19:00:21 2019 +1000
+
+    Image markdown
+
+commit 4bedd8d039001be4766986fc4dcb07e4e1ea144b
+Author: Ben <ben@notionparallax.co.uk>
+Date:   Thu May 30 18:59:31 2019 +1000
+
+    first
