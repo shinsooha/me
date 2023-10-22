@@ -24,6 +24,8 @@ def add_1(a_number):
     This is an example function to get you started.
     Run the tests now and this one should go green. Free marks!
     """
+    a_answer = a_number + 1
+    return a_answer
 
 
 def add_5(a_number):
@@ -39,6 +41,8 @@ def add_5(a_number):
         return a_number plus five
     except expressed in python, not english
     """
+    a_answer = a_number + 5
+    return a_answer
 
 
 def adder(a_number, another_number):
@@ -46,6 +50,8 @@ def adder(a_number, another_number):
 
     Same as above, but with any two numbers.
     """
+    a_answer = a_number + another_number
+    return a_answer
 
 
 def shout(a_string):
@@ -56,9 +62,11 @@ def shout(a_string):
     or in any of the million places that google will give you.
     "python make a string uppercase" is a good starting search query.
     HINT: there are a few things with upper case in their description, but
-          they all do different things. You'll need to actually read the
-          docs to find out which one you actually need.
+        they all do different things. You'll need to actually read the
+        docs to find out which one you actually need.
     """
+    a_answer = a_string.upper()
+    return a_answer
 
 
 def really_shout(a_string):
@@ -70,6 +78,10 @@ def really_shout(a_string):
     that you've reused the function you already wrote.
     Look up how to 'concatinate' strings to make this happen.
     """
+    a_answer = a_string.upper()
+
+    " ".join(["a_answer,", "!"])
+    return
 
 
 def shout_with_a_number(a_string, a_number):
@@ -79,19 +91,20 @@ def shout_with_a_number(a_string, a_number):
     'HELLO 42'
 
     HINT: Lookup how to cast a_number to a string or lookup how to use
-          string formatting in python.
-          There are a few ways to do this, so if you're looking for a
-          challenge, see if you can make the test pass with at least two ways
-          of doing the same job.
+        string formatting in python.
+        There are a few ways to do this, so if you're looking for a
+        challenge, see if you can make the test pass with at least two ways
+        of doing the same job.
     """
     # the_answer = shout(a_string) + " " + str(a_number)
-
+    shout_with_a_number = f"{a_string.upper()} {a_number}"
+    return shout_with_a_number
 
 """#################################
 You don't need to worry about anything below here. 
 It's there to easily test your code from inside this file 
 so that you can use the debugger more easily.
-   #################################"""
+#################################"""
 
 
 def minitest(f, args, expected):
